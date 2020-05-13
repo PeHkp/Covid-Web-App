@@ -22,7 +22,19 @@
   text-decoration: none;
   margin-left: 50px;
 }
-@media (max-width: 414px) {
+@media (max-width: 375px) {
+  .headerlinks {
+    margin-left: 20px;
+  }
+  .cabecario {
+    padding: 0 10px;
+  }
 }
-@media (max-width: 768px) {
+@media (max-width: 414px) {
+  .headerlinks {
+    margin-left: 20px;
+  }
+  .cabecario {
+    padding: 0 10px;
+  }
 }

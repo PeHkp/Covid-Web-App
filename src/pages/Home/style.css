@@ -121,3 +121,33 @@ body {
 .EstatisticasDia .infected {
   margin: 0 auto;
 }
+@media(max-width : 375px) {
+  .all {
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .header{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .imagemDiv img {
+    display: none;
+  }
+  .textoDiv {
+    font-size: 28px;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .organizaDia {
+    display: block;
+  }
+  .EstatisticasDia {  
+    margin: 0px 0px 0 0px;
+    width: 100%;
+  }
+  .cases {
+    margin: 0;
+    padding: 0;
+  }
+}
