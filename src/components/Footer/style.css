@@ -1,0 +1,15 @@
+.Footer {
+    height: 30px;
+    background-image: linear-gradient(to bottom right, #11249f, #3383cd);
+    text-align: center;
+    padding-top: 15px ;
+}
+.Footer a {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.Footer a:hover {
+    color: #3383cd;
+}

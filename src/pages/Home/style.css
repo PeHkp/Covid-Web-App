@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fefefe;
+  -webkit-font-smoothing: antialiased;
+}
+.all {
+  background-image: linear-gradient(to bottom right, #11249f, #3383cd);
+  width: 100%;
+  max-height: 700px;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+  margin-bottom: 70px;
+}
+.header {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  background-image: url("../../assets/image/virus.png");
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+  margin-top: -50px;
+}
+.imagemDiv img {
+  width: 300px;
+}
+.textoDiv {
+  color: white;
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-left: 150px;
+  margin-right: -150px;
+}
+.cases {
+  margin: 30px 300px 30px 300px;
+  padding: 30px 100px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #303030;
+}
+.cases p {
+  color: #959595;
+}
+.Estatisticas {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 100px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 16px -4px rgba(183, 183, 183, 1);
+}
+.infected {
+  display: block;
+  text-align: center;
+  width: 50%;
+  color: #ff8748;
+}
+.infected h1{
+    margin-top: 30px;
+}
+.infected p {
+    margin-top:10px
+}
+.bolaFora {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 136, 72, 0.6);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.boladentro {
+  width: 50%;
+  height: 50%;
+  border: 3px solid #ff8748;
+  border-radius: 100%;
+}
+.bolaForaRed {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 72, 72, 0.6);
+  border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+.boladentroRed {
+  width: 50%;
+  height: 50%;
+  border: 3px solid #ff4848;
+  border-radius: 100%;
+}
+.dead h1 {
+    color: #ff4848;
+}
+.organizaDia {
+  display: flex;
+}
+.EstatisticasDia {  
+  margin: 50px 20px 0 20px;
+  width: 30%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 50px;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 16px -4px rgba(183, 183, 183, 1);
+}
+.EstatisticasDia .infected {
+  margin: 0 auto;
+}
