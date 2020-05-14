@@ -59,8 +59,8 @@ function Home() {
             <img src={Imagem} alt="" srcset="" />
           </div>
           <div className="textoDiv">
-            <h1>Tudo que voce precisa</h1>
-            <h1>e ficar em casa.</h1>
+            <h1>Tudo que você precisa</h1>
+            <h1>é ficar em casa!</h1>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ function Home() {
               <div className="boladentro"></div>
             </div>
             <h1>{post.total_casos}</h1>
-            <p>Infectador</p>
+            <p>Infectados</p>
           </div>
           <div className="infected dead">
             <div className="bolaForaRed">
@@ -100,7 +100,7 @@ function Home() {
                 <div className="boladentro"></div>
               </div>
               <h1>{data.new_cases}</h1>
-              <p>Infectador</p>
+              <p>Infectados</p>
             </div>
             <div className="infected dead">
               <div className="bolaForaRed">
@@ -119,7 +119,7 @@ function Home() {
                 <div className="boladentro"></div>
               </div>
               <h1>{data2.new_cases}</h1>
-              <p>Infectador</p>
+              <p>Infectados</p>
             </div>
             <div className="infected dead">
               <div className="bolaForaRed">
@@ -137,7 +137,7 @@ function Home() {
                 <div className="boladentro"></div>
               </div>
               <h1>{data3.new_cases}</h1>
-              <p>Infectador</p>
+              <p>Infectados</p>
             </div>
             <div className="infected dead">
               <div className="bolaForaRed">
