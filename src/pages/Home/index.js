@@ -15,7 +15,7 @@ function Home() {
   const [data3, setData3] = useState([]);
 
   var teste = "Brasil";
-/*
+
   useEffect(() => {
     api.get(teste).then((response) => {
       setPost(response.data);
@@ -49,7 +49,7 @@ function Home() {
       );
     });
   });
-*/
+
   return (
     <div>
       <div className="all">
