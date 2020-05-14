@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
 .cabecario {
-  padding: 0 400px;
+  padding: 0 20%;
   height: 50px;
   background-color: transparent;
   display: flex;
@@ -28,7 +28,7 @@
     margin-left: 30px;
   }
   .cabecario {
-    padding: 0 200px;
+    padding: 0 14%;
   }
 }
 @media (max-width: 414px) {
@@ -36,7 +36,6 @@
     margin-left: 20px;
   }
   .cabecario {
-    padding: 0 10px;
+    padding: 0 2%;
   }
 }
-  

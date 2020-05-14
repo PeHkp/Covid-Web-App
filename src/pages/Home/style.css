@@ -34,12 +34,12 @@ body {
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  margin-left: 150px;
-  margin-right: -150px;
+  margin-left: 8%;
+  margin-right: -8%;
 }
 .cases {
-  margin: 30px 300px 30px 300px;
-  padding: 30px 100px;
+  margin: 30px 15% 30px 15%;
+  padding: 30px 5%;
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -53,7 +53,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 40px 100px;
+  padding: 4% 9%;
   border-radius: 30px;
   background-color: white;
   box-shadow: 0px 0px 16px -4px rgba(183, 183, 183, 1);
@@ -109,11 +109,11 @@ body {
   display: flex;
 }
 .EstatisticasDia {
-  margin: 50px 20px 0 20px;
+  margin: 50px 2% 0 2%;
   width: 30%;
   align-items: center;
   justify-content: space-around;
-  padding: 20px 50px;
+  padding: 20px 4.4%;
   border-radius: 30px;
   background-color: white;
   box-shadow: 0px 0px 16px -4px rgba(183, 183, 183, 1);
@@ -133,8 +133,8 @@ body {
   }
   .textoDiv {
     font-size: 28px;
-    margin-left: 50px;
-    margin-right: -50px;
+    margin-left: 4%;
+    margin-right: -4%;
     text-align: center;
   }
   .Estatisticas {
@@ -144,18 +144,27 @@ body {
     margin: 0 auto;
   }
   .EstatisticasDia {
-    margin: 30px 20px 0px 20px;
+    margin: 30px 2% 0px 2%;
     width: 33%;
   }
   .cases {
     margin: 0;
-    padding: 0 200px;
+    padding: 0 14%;
   }
   .caseBaixo {
     margin-top: 30px;
   }
 }
-@media (max-width: 414px) {
+@media(max-width:1024px){
+  .imagemDiv img {
+    display: none;
+  }
+  .textoDiv {
+    margin:0
+  }
+}
+
+@media (max-width: 790px) {
   .all {
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
@@ -174,7 +183,7 @@ body {
     text-align: center;
   }
   .Estatisticas {
-    margin: 30px 20px 0 20px;
+    margin: 8% 5% 0 5%;
     display: block;
   }
   .Estatisticas .infected {
