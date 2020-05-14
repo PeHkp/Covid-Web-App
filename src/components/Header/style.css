@@ -22,6 +22,7 @@
   text-decoration: none;
   margin-left: 50px;
 }
+
 @media (max-width: 1366px) {
   .headerlinks {
     margin-left: 30px;
@@ -38,3 +39,4 @@
     padding: 0 10px;
   }
 }
+  

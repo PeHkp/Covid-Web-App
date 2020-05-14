@@ -64,11 +64,11 @@ body {
   width: 50%;
   color: #ff8748;
 }
-.infected h1{
-    margin-top: 30px;
+.infected h1 {
+  margin-top: 30px;
 }
 .infected p {
-    margin-top:10px
+  margin-top: 10px;
 }
 .bolaFora {
   display: flex;
@@ -103,12 +103,12 @@ body {
   border-radius: 100%;
 }
 .dead h1 {
-    color: #ff4848;
+  color: #ff4848;
 }
 .organizaDia {
   display: flex;
 }
-.EstatisticasDia {  
+.EstatisticasDia {
   margin: 50px 20px 0 20px;
   width: 30%;
   align-items: center;
@@ -121,12 +121,46 @@ body {
 .EstatisticasDia .infected {
   margin: 0 auto;
 }
-@media(max-width : 414px) {
+
+@media (max-width: 1366px) {
   .all {
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
   }
-  .header{
+  .header {
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .textoDiv {
+    font-size: 28px;
+    margin-left: 50px;
+    margin-right: -50px;
+    text-align: center;
+  }
+  .Estatisticas {
+    margin: 30px 0px 0 0px;
+  }
+  .Estatisticas .infected {
+    margin: 0 auto;
+  }
+  .EstatisticasDia {
+    margin: 30px 20px 0px 20px;
+    width: 33%;
+  }
+  .cases {
+    margin: 0;
+    padding: 0 200px;
+  }
+  .caseBaixo {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .all {
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .header {
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
   }
@@ -149,9 +183,9 @@ body {
   .organizaDia {
     display: block;
   }
-  .EstatisticasDia {  
+  .EstatisticasDia {
     margin: 30px 20px 0px 20px;
-    width: auto
+    width: auto;
   }
   .cases {
     margin: 0;
@@ -162,38 +196,5 @@ body {
   }
   .casesCima {
     text-align: center;
-  }
-}
-@media(max-width:1366px){
-  .all {
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-  }
-  .header{
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-  }
-  .textoDiv {
-    font-size: 28px;
-    margin-left: 50px;
-    margin-right: -50px;
-    text-align: center;
-  }
-  .Estatisticas {
-    margin: 30px 0px 0 0px;
-  }
-  .Estatisticas .infected {
-    margin: 0 auto;
-  }
-  .EstatisticasDia {  
-    margin: 30px 20px 0px 20px;
-    width: 33%
-  }
-  .cases {
-    margin: 0;
-    padding: 0 200px;
-  }
-  .caseBaixo {
-    margin-top: 30px;
   }
 }
