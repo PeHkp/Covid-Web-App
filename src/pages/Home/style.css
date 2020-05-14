@@ -121,7 +121,7 @@ body {
 .EstatisticasDia .infected {
   margin: 0 auto;
 }
-@media(max-width : 375px) {
+@media(max-width : 414px) {
   .all {
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
@@ -139,15 +139,61 @@ body {
     margin-right: 0px;
     text-align: center;
   }
+  .Estatisticas {
+    margin: 30px 20px 0 20px;
+    display: block;
+  }
+  .Estatisticas .infected {
+    margin: 0 auto;
+  }
   .organizaDia {
     display: block;
   }
   .EstatisticasDia {  
-    margin: 0px 0px 0 0px;
-    width: 100%;
+    margin: 30px 20px 0px 20px;
+    width: auto
   }
   .cases {
     margin: 0;
     padding: 0;
+  }
+  .caseBaixo {
+    margin-top: 30px;
+  }
+  .casesCima {
+    text-align: center;
+  }
+}
+@media(max-width:1366px){
+  .all {
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .header{
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+  }
+  .textoDiv {
+    font-size: 28px;
+    margin-left: 50px;
+    margin-right: -50px;
+    text-align: center;
+  }
+  .Estatisticas {
+    margin: 30px 0px 0 0px;
+  }
+  .Estatisticas .infected {
+    margin: 0 auto;
+  }
+  .EstatisticasDia {  
+    margin: 30px 20px 0px 20px;
+    width: 33%
+  }
+  .cases {
+    margin: 0;
+    padding: 0 200px;
+  }
+  .caseBaixo {
+    margin-top: 30px;
   }
 }

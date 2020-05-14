@@ -87,7 +87,7 @@ function Home() {
         </div>
       </div>
       <div className="cases">
-        <div className="casesCima">
+        <div className="casesCima caseBaixo">
           <h1>Casos Por Dia</h1>
           <p>Atualizado Agora</p>
         </div>
