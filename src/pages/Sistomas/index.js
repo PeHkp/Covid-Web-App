@@ -29,7 +29,7 @@ function Sistomas() {
       </div>
       <div className="title">
         <h1>Principais Sintomas</h1>
-        <p>Algumas coisas que pode identificar a infeccao</p>
+        <p>Alguns sintomas que podem identificar a infecção</p>
       </div>
 
       <div className="sintomas">
@@ -43,19 +43,19 @@ function Sistomas() {
         </div>
         <div className="sintomasUm">
           <img src={DorCabeca} alt="Dor de Cabeca" srcset="" />
-          <p>Dor de Cabeca</p>
+          <p>Dor de Cabeça</p>
         </div>
       </div>
       <div className="title">
         <h1>Prevenção</h1>
-        <p>Atitudes que voce pode tomar</p>
+        <p>Atitudes que você pode tomar</p>
       </div>
       <div className="prevencoes">
         <img src={Mascara} alt="" />
         <div className="textosMascara">
-          <h1>Usar mascaras protetoras</h1>
+          <h1>Usar máscaras protetoras</h1>
           <p>
-            o recomendado pelos especialistas é que, se necessário, as máscaras
+            O recomendado pelos especialistas é que, se necessário, as máscaras
             utilizadas sejam do tipo de proteção respiratória individual,
             compostas por uma peça facial e um dispositivo de filtragem de ar
             que garantem uma vida útil mais longa à peça....
@@ -68,15 +68,15 @@ function Sistomas() {
         <div className="textosMascara">
           <h1>Lavar as Maos</h1>
           <p>
-            Lavar as mãos é ato reconhecido pela OMS (Organização Mundial da
-            Saúde) como um dos principais instrumentos contra epidemias. Dados
+            Lavar as mãos é o ato reconhecido pela OMS (Organização Mundial da
+            Saúde) como um dos principais ações contra epidemias. Dados
             mostram que o hábito pode reduzir em até 40% a contaminação por
             vírus e bactérias que causam doenças como gripes, resfriados,
             conjuntivites e viroses.
           </p>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }
